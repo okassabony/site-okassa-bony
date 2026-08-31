@@ -9,3 +9,8 @@ excerpt: Le stress fait partie des difficultés fréquemment rencontrées par le
   académiques
 ---
 Le stress est une réaction naturelle de l’organisme face à une situation perçue comme exigeante ou menaçante. Chez les étudiants, il peut être associé aux examens, à la charge de travail, aux difficultés financières ou encore aux incertitudes concernant l’avenir.
+
+Lorsque le stress devient trop important ou persistant, il peut avoir des conséquences sur la concentration, le sommeil, la motivation et le bien-être psychologique.
+Pour mieux le gérer, il est notamment utile d'organiser son travail progressivement, de maintenir un rythme de sommeil régulier, de pratiquer une activité physique adaptée et de conserver des moments de récupération.
+Il est également important de ne pas rester seul face à une difficulté persistante. Échanger avec une personne de confiance ou consulter un professionnel peut être utile lorsque le stress devient difficile à gérer au quotidien.
+Prendre soin de sa santé psychologique constitue donc une composante importante de la réussite académique.
