@@ -1,0 +1,36 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "content/uploads"
+public_folder: "/content/uploads"
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "articles"
+    label: "Articles"
+    folder: "content/articles"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Catégorie", name: "category", widget: "select", options: ["Parents", "Enfants", "Adolescence", "Apprentissages", "Motivation scolaire", "Orientation", "Psychologie de l'éducation"]}
+      - {label: "Image de couverture", name: "image", widget: "image", required: false}
+      - {label: "Résumé", name: "excerpt", widget: "text"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
+
+  - name: "videos"
+    label: "Vidéos"
+    folder: "content/videos"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Plateforme", name: "platform", widget: "select", options: ["YouTube", "Facebook", "TikTok"]}
+      - {label: "Lien de la vidéo", name: "video_url", widget: "string"}
+      - {label: "Résumé", name: "excerpt", widget: "text"}
+      - {label: "Image de couverture", name: "image", widget: "image", required: false}
+      - {label: "Description", name: "body", widget: "markdown"}
