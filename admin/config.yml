@@ -2,9 +2,8 @@ backend:
   name: turbo-github
   turbo_site_id: 637a9603-9d19-460c-ae3b-cdb7e5fc156a
   branch: main
-media_folder: "content/uploads"
-public_folder: "/site-okassa-bony/content/uploads"
-
+media_folder: "uploads"
+public_folder: "/site-okassa-bony/uploads"
 publish_mode: editorial_workflow
 
 collections:
