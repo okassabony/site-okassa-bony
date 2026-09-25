@@ -1,8 +1,8 @@
 ---
 title: Comment mieux mémoriser une leçon ?
-date: 2026-09-25T03:48:00.000+00:00
+date: 2026-09-25T04:03:00.000+00:00
 category: Apprentissages
-image: /content/uploads/file_000000001e648211b89ea881ee36f9ce.png
+image: /content/uploads/file_00000000b1848210bf14be4f00167b19.png
 excerpt: Mémoriser une leçon ne consiste pas seulement à la relire plusieurs
   fois. Certaines stratégies permettent de mieux comprendre, retenir et
   retrouver les informations au moment où l’on en a besoin.
