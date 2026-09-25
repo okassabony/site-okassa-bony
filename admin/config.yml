@@ -2,6 +2,7 @@ backend:
   name: github
   repo: okassabony/site-okassa-bony
   branch: main
+    site_domain: site-okassa-bony.netlify.app
 
 media_folder: "content/uploads"
 public_folder: "/content/uploads"
