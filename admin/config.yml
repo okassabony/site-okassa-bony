@@ -1,8 +1,7 @@
 backend:
-  name: github
-  repo: okassabony/site-okassa-bony
+  name: turbo-github
+  turbo_site_id: 637a9603-9d19-460c-ae3b-cdb7e5fc156a
   branch: main
-  site_domain: site-okassa-bony.netlify.app
 media_folder: "content/uploads"
 public_folder: "/content/uploads"
 
