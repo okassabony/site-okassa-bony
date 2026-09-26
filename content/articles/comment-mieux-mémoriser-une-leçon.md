@@ -7,6 +7,8 @@ excerpt: Mémoriser une leçon ne consiste pas seulement à la relire plusieurs
   fois. Certaines stratégies permettent de mieux comprendre, retenir et
   retrouver les informations au moment où l’on en a besoin.
 ---
+![](/site-okassa-bony/content/uploads/file_00000000b1848210bf14be4f00167b19.png)
+
 **Comment mieux mémoriser une leçon ?**
 
 Mémoriser une leçon ne signifie pas simplement la lire plusieurs fois. Pour retenir durablement une information, il est important de la comprendre, de la réactiver et de l'utiliser.
