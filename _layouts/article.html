@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page.title }} | Okassa BONY</title>
+
+  <meta name="description" content="{{ page.excerpt | escape }}">
+  <meta name="author" content="Okassa BONY">
+
+  <link rel="icon" type="image/png" href="/site-okassa-bony/favicon.png">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.excerpt | escape }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="Okassa BONY">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      color: #17324d;
+      background: #f7f5f0;
+    }
+
+    header {
+      background: #17324d;
+      color: white;
+      padding: 25px 20px;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 0 20px 60px;
+    }
+
+    article {
+      background: white;
+      padding: 35px;
+      border-radius: 12px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      line-height: 1.2;
+    }
+
+    h2 {
+      margin-top: 35px;
+    }
+
+    .category {
+      color: #9a741f;
+      font-weight: bold;
+    }
+
+    .excerpt {
+      font-size: 1.1rem;
+      color: #555;
+      margin: 20px 0 30px;
+    }
+
+    .back {
+      margin-bottom: 25px;
+    }
+
+    .back a {
+      color: #17324d;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <a href="/site-okassa-bony/">OKASSA BONY</a>
+</header>
+
+<main>
+
+  <div class="back">
+    <a href="/site-okassa-bony/">← Retour au site</a>
+  </div>
+
+  <article>
+
+    {% if page.category %}
+      <div class="category">{{ page.category }}</div>
+    {% endif %}
+
+    <h1>{{ page.title }}</h1>
+
+    {% if page.excerpt %}
+      <div class="excerpt">
+        {{ page.excerpt }}
+      </div>
+    {% endif %}
+
+    {{ content }}
+
+    <p>
+      <strong>Okassa BONY</strong><br>
+      Psychologue de l'éducation
+    </p>
+
+  </article>
+
+</main>
+
+</body>
+</html>
