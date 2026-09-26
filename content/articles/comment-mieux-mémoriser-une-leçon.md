@@ -1,14 +1,12 @@
 ---
 title: Comment mieux mémoriser une leçon ?
-date: 2026-09-25T05:04:00.000+00:00
+date: 2026-09-26T01:48:00.000+00:00
 category: Apprentissages
-image: ""
+image: /site-okassa-bony/content/uploads/file_00000000b1848210bf14be4f00167b19.png
 excerpt: Mémoriser une leçon ne consiste pas seulement à la relire plusieurs
   fois. Certaines stratégies permettent de mieux comprendre, retenir et
   retrouver les informations au moment où l’on en a besoin.
 ---
-![](/site-okassa-bony/content/uploads/file_00000000b1848210bf14be4f00167b19.png)
-
 **Comment mieux mémoriser une leçon ?**
 
 Mémoriser une leçon ne signifie pas simplement la lire plusieurs fois. Pour retenir durablement une information, il est important de la comprendre, de la réactiver et de l'utiliser.
