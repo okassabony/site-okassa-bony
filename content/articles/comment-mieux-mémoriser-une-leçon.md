@@ -1,4 +1,5 @@
 ---
+layout: article 
 title: Comment mieux mémoriser une leçon ?
 date: 2026-09-26T01:48:00.000+00:00
 category: Apprentissages
