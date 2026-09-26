@@ -704,11 +704,15 @@ async function loadResources() {
         `;
 
         card
-          .querySelector(".read-more")
-          .addEventListener(
-            "click",
-            () => openResource(resource)
-          );
+  .querySelector(".read-more")
+  .addEventListener("click", () => {
+    if (resource.title === "Comment mieux mémoriser une leçon ?") {
+      window.location.href =
+        "https://okassabony.github.io/site-okassa-bony/content/articles-pages/comment-mieux-memoriser-une-lecon.html";
+    } else {
+      openResource(resource);
+    }
+  });
 
         grid.appendChild(card);
       }
