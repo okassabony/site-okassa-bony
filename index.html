@@ -598,7 +598,18 @@ async function loadResources() {
 
           excerpt: getField(text, "excerpt"),
 
-          image: getField(text, "image")
+          image: (() => {
+  const img = getField(text, "image");
+  if (!img) return "";
+  if (img.startsWith("http")) return img;
+  if (img.startsWith("/site-okassa-bony/")) {
+    return "https://okassabony.github.io" + img;
+  }
+  if (img.startsWith("/")) {
+    return "https://okassabony.github.io/site-okassa-bony" + img;
+  }
+  return "https://okassabony.github.io/site-okassa-bony/" + img;
+})(),
   ? (getField(text, "image").startsWith("http")
       ? getField(text, "image")
       : "https://okassabony.github.io/site-okassa-bony" + getField(text, "image"))
