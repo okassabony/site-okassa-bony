@@ -778,6 +778,40 @@ loadResources();
         </div>
         <p class="help">Après l'ouverture de WhatsApp, vérifiez le message puis appuyez sur « Envoyer ».</p>
       </form>
+      <script>
+document.getElementById("bookingForm").addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  const name = document.getElementById("name").value.trim();
+  const phone = document.getElementById("phone").value.trim();
+  const person = document.getElementById("person").value;
+  const date = document.getElementById("date").value;
+  const reason = document.getElementById("reason").value.trim();
+
+  const dateFormatted = date
+    ? new Date(date + "T00:00:00").toLocaleDateString("fr-FR")
+    : "Non précisée";
+
+  const message =
+`Bonjour M. Okassa BONY,
+
+Je souhaite faire une demande d'accompagnement.
+
+Nom et prénom : ${name}
+Téléphone : ${phone}
+Personne concernée : ${person}
+Date souhaitée : ${dateFormatted}
+
+Motif de la demande :
+${reason}`;
+
+  const whatsappURL =
+    "https://wa.me/2250575953369?text=" +
+    encodeURIComponent(message);
+
+  window.open(whatsappURL, "_blank");
+});
+      </script>
     </div>
   </div>
 </section>
