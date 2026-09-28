@@ -709,6 +709,12 @@ async function loadResources() {
           >
             En savoir plus →
           </button>
+          <button
+            class="share-resource"
+              type="button"
+              >
+                ↗ Partager
+                </button>
 
         `;
 
@@ -722,6 +728,30 @@ async function loadResources() {
       openResource(resource);
     }
   });
+  card
+    .querySelector(".share-resource")
+      .addEventListener("click", async () => {
+          const shareData = {
+                title: resource.title,
+                      text: `Découvrez cette publication de Okassa BONY : ${resource.title}`,
+                            url: window.location.href
+                                };
+
+                                    if (navigator.share) {
+                                          try {
+                                                  await navigator.share(shareData);
+                                                        } catch (error) {
+                                                                console.log("Partage annulé");
+                                                                      }
+                                                                          } else {
+                                                                                try {
+                                                                                        await navigator.clipboard.writeText(window.location.href);
+                                                                                                alert("Lien copié. Vous pouvez maintenant le partager.");
+                                                                                                      } catch (error) {
+                                                                                                              alert("Impossible de copier le lien.");
+                                                                                                                    }
+                                                                                                                        }
+                                                                                                                          });
 
         grid.appendChild(card);
       }
