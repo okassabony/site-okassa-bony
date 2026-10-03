@@ -2,6 +2,7 @@
 title: Pourquoi est-il important de faire des pauses lorsqu’on étudie ?
 date: 2026-09-25T02:03:00.000+00:00
 category: Apprentissages
+image: /site-okassa-bony/content/uploads/file_000000002e048210838ef78b2cf733e5.png
 excerpt: Faire des pauses pendant les révisions ne signifie pas perdre du temps.
   Au contraire, des pauses bien organisées peuvent aider à maintenir l’attention
   et à mieux mémoriser les informations.
